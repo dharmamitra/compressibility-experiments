@@ -14,8 +14,11 @@ compression_df = pd.read_csv(compression_file)
 scores_file = 'updated_merged_output.tsv'  # Update this path
 scores_df = read_tsv(scores_file)
 
+scores_df = scores_df[scores_df['Document'] != 'all_files.tsv']
+
 # Merge dataframes
 merged_df = pd.merge(scores_df, compression_df, left_on='Document', right_on='File')
+merged_df[['Document', 'Ratio']].drop_duplicates()
 print(merged_df)
 
 # Calculate correlations
@@ -35,9 +38,9 @@ for llm in llms:
             'P-value': p_value
         })
 
+
 results_df = pd.DataFrame(results)
+results_df = results_df.sort_values(['Score Type', 'LLM'])
 
-
-# Optionally, save results to a file
 results_df.to_csv('correlation_results.csv', index=False)
 print("Results saved to 'correlation_results.csv'")
