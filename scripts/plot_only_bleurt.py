@@ -4,7 +4,7 @@ import numpy as np
 
 # Read the data
 scores_df = pd.read_csv('updated_merged_output.tsv', sep='\t')
-compressibility_df = pd.read_csv('compression_ratios_self.csv')
+compressibility_df = pd.read_csv('compression_ratios.csv')
 
 # Merge the dataframes
 merged_df = pd.merge(scores_df, compressibility_df, left_on='Document', right_on='File')
@@ -31,7 +31,7 @@ compressibility_data = merged_df.groupby('Document')['Ratio'].first().sort_value
 axs[0].plot(range(len(compressibility_data)), compressibility_data.values, 
             marker='o', linestyle='-', color='black', label='Compressibility Ratio')
 axs[0].set_ylabel('Compressibility Ratio', fontsize=18)
-axs[0].set_title('Compressibility Ratios (without training data)', fontsize=20)
+axs[0].set_title('Compressibility Ratios (with reference corpus)', fontsize=20)
 axs[0].legend(fontsize=16)
 axs[0].set_xticks(range(len(compressibility_data)))
 axs[0].set_xticklabels(compressibility_data.index, rotation=45, ha='right', fontsize=14)
