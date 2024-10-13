@@ -4,16 +4,16 @@ import numpy as np
 
 # Read the data
 scores_df = pd.read_csv('updated_merged_output.tsv', sep='\t')
-compressibility_df = pd.read_csv('compression_ratios.csv')
+compressibility_df = pd.read_csv('compression_ratios_self.csv')
 
 # Merge the dataframes
 merged_df = pd.merge(scores_df, compressibility_df, left_on='Document', right_on='File')
 
 # Set up the plot style
-plt.style.use('ggplot')
+#plt.style.use('ggplot')
 
 # Create the figure and subplots
-fig, axs = plt.subplots(5, 1, figsize=(20, 35), sharex=True)
+fig, axs = plt.subplots(5, 1, figsize=(14, 6), sharex=True)
 fig.suptitle('Compressibility Ratios and Scores Across Documents', fontsize=16, y=0.95)
 
 # Plot compressibility ratios
@@ -27,7 +27,7 @@ axs[0].set_xticks(range(len(compressibility_data)))
 axs[0].set_xticklabels(compressibility_data.index, rotation=45, ha='right')
 
 # Plot scores
-score_types = ['BLEU Score', 'BERT Score', 'BLEURT Score', 'CHRF Score']
+score_types = ['BLEURT Score', 'BERT Score', 'CHRF Score', 'BLEU Score']
 
 for i, score_type in enumerate(score_types, start=1):
     # Calculate average scores for each document and LLM
@@ -66,8 +66,10 @@ for i, score_type in enumerate(score_types, start=1):
 plt.tight_layout()
 plt.subplots_adjust(top=0.92, hspace=0.4)
 
+
+output_file = 'new_comparison_self.png'
 # Save the figure
-plt.savefig('compressibility_scores_comparison_all_sorted_continuous.png', dpi=300, bbox_inches='tight')
+plt.savefig(output_file, dpi=300, bbox_inches='tight')
 plt.close()
 
-print("Visualization saved as 'compressibility_scores_comparison_all_sorted_continuous.png'")
+print("Visualization saved as " + output_file)

@@ -42,5 +42,7 @@ for llm in llms:
 results_df = pd.DataFrame(results)
 results_df = results_df.sort_values(['Score Type', 'LLM'])
 
-results_df.to_csv('correlation_results.csv', index=False)
-print("Results saved to 'correlation_results.csv'")
+output_file = 'correlation_results_new.csv'
+
+results_df.to_csv(output_file, index=False)
+print("Results saved to "+ output_file)
