@@ -7,12 +7,15 @@ def read_tsv(file_path):
     return pd.read_csv(file_path, sep='\t')
 
 # Read compression ratios
-compression_file = 'compression_ratios.csv'  # Update this path
+compression_file = 'marcus_compression_ratios.csv'  # Update this path
 compression_df = pd.read_csv(compression_file)
 
 # Read LLM scores
-scores_file = 'updated_merged_output.tsv'  # Update this path
+scores_file = 'output_filtered.tsv'  # Update this path
 scores_df = read_tsv(scores_file)
+
+scores_df['Document'] = scores_df['Document'].str.extract(r'(T\d+n\d+)')
+compression_df['File'] = compression_df['File'].str.extract(r'/(T\d+n\d+)')
 
 scores_df = scores_df[scores_df['Document'] != 'all_files.tsv']
 
@@ -23,7 +26,8 @@ print(merged_df)
 
 # Calculate correlations
 llms = merged_df['LLM'].unique()
-score_types = ['CHRF Score', 'BLEU Score', 'BERT Score', 'BLEURT Score']
+#score_types = ['CHRF Score', 'BLEU Score', 'BERT Score', 'BLEURT Score']
+score_types = ['BLEURT Score']
 
 results = []
 
@@ -42,7 +46,7 @@ for llm in llms:
 results_df = pd.DataFrame(results)
 results_df = results_df.sort_values(['Score Type', 'LLM'])
 
-output_file = 'correlation_results_new.csv'
+output_file = 'marcus_correlation.csv'
 
 results_df.to_csv(output_file, index=False)
 print("Results saved to "+ output_file)
