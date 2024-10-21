@@ -27,7 +27,7 @@ def process_file(file_path):
 def main():
     # Process all TSV files in the zh directory
     results = []
-    for file_path in glob.glob('zh/*.tsv'):
+    for file_path in glob.glob('marcus_translations/*.tsv'):
         orig_size, gzip_size, ratio = process_file(file_path)
         results.append((file_path, orig_size, gzip_size, ratio))
     
@@ -40,7 +40,7 @@ def main():
         print(f"{file_path}\t{orig_size}\t{gzip_size}\t{ratio:.2f}")
     
     # Save results to a CSV file
-    output_file = 'compression_ratios_self.csv'
+    output_file = 'marcus_compression_ratios.csv'
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(['File', 'Original Size', 'Gzip Size', 'Ratio'])
