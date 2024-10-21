@@ -1,0 +1,57 @@
+Document	LLM	CHRF Score	BLEU Score	BERT Score	BLEURT Score
+T1600_mavbh_kotyk.tsv	claude 3 pred	38.69	0.132	0.379	0.554
+T1600_mavbh_kotyk.tsv	claude 3. 5 pred	38.014	0.115	0.39	0.566
+T1600_mavbh_kotyk.tsv	chatgpt3. 5 pred	31.743	0.079	0.305	0.508
+T1600_mavbh_kotyk.tsv	chatgpt4 pred	32.945	0.087	0.332	0.52
+T1600_mavbh_kotyk.tsv	chatgpt4o pred	36.655	0.11	0.375	0.557
+T1600_mavbh_kotyk.tsv	gtrans pred	29.416	0.065	0.294	0.5
+T1600_mavbh_kotyk.tsv	mitra pred	39.848	0.142	0.416	0.57
+T0374_nirvana_blum.tsv	claude 3 pred	39.877	0.142	0.445	0.615
+T0374_nirvana_blum.tsv	claude 3. 5 pred	40.117	0.145	0.475	0.622
+T0374_nirvana_blum.tsv	chatgpt3. 5 pred	35.158	0.104	0.409	0.582
+T0374_nirvana_blum.tsv	chatgpt4 pred	36.302	0.113	0.419	0.586
+T0374_nirvana_blum.tsv	chatgpt4o pred	38.161	0.13	0.465	0.617
+T0374_nirvana_blum.tsv	gtrans pred	34.349	0.097	0.397	0.565
+T0374_nirvana_blum.tsv	mitra pred	39.587	0.142	0.46	0.62
+T0475_vimalakirti_watson.tsv	claude 3 pred	41.184	0.148	0.484	0.636
+T0475_vimalakirti_watson.tsv	claude 3. 5 pred	41.478	0.166	0.485	0.634
+T0475_vimalakirti_watson.tsv	chatgpt3. 5 pred	35.852	0.109	0.424	0.591
+T0475_vimalakirti_watson.tsv	chatgpt4 pred	37.895	0.125	0.454	0.616
+T0475_vimalakirti_watson.tsv	chatgpt4o pred	40.597	0.155	0.508	0.632
+T0475_vimalakirti_watson.tsv	gtrans pred	35.511	0.113	0.412	0.589
+T0475_vimalakirti_watson.tsv	mitra pred	38.705	0.147	0.47	0.633
+all_files.tsv	claude 3 pred	40.217	0.148	0.421	0.583
+all_files.tsv	claude 3. 5 pred	39.062	0.135	0.432	0.59
+all_files.tsv	chatgpt3. 5 pred	33.653	0.096	0.356	0.538
+all_files.tsv	chatgpt4 pred	34.594	0.1	0.375	0.549
+all_files.tsv	chatgpt4o pred	37.552	0.125	0.421	0.58
+all_files.tsv	gtrans pred	31.84	0.082	0.342	0.523
+all_files.tsv	mitra pred	40.746	0.155	0.445	0.594
+T0026_madhyamagama_analayo.tsv	claude 3 pred	44.869	0.193	0.453	0.607
+T0026_madhyamagama_analayo.tsv	claude 3. 5 pred	41.586	0.163	0.45	0.61
+T0026_madhyamagama_analayo.tsv	chatgpt3. 5 pred	36.861	0.121	0.371	0.558
+T0026_madhyamagama_analayo.tsv	chatgpt4 pred	37.104	0.117	0.387	0.569
+T0026_madhyamagama_analayo.tsv	chatgpt4o pred	40.13	0.151	0.435	0.597
+T0026_madhyamagama_analayo.tsv	gtrans pred	34.007	0.093	0.339	0.532
+T0026_madhyamagama_analayo.tsv	mitra pred	43.573	0.178	0.444	0.608
+T2026_zhenqing_bingenheimer.tsv	claude 3 pred	38.139	0.131	0.443	0.542
+T2026_zhenqing_bingenheimer.tsv	claude 3. 5 pred	36.664	0.108	0.434	0.531
+T2026_zhenqing_bingenheimer.tsv	chatgpt3. 5 pred	32.282	0.067	0.371	0.478
+T2026_zhenqing_bingenheimer.tsv	chatgpt4 pred	32.701	0.08	0.375	0.491
+T2026_zhenqing_bingenheimer.tsv	chatgpt4o pred	36.758	0.118	0.439	0.526
+T2026_zhenqing_bingenheimer.tsv	gtrans pred	30.69	0.069	0.363	0.461
+T2026_zhenqing_bingenheimer.tsv	mitra pred	37.97	0.122	0.448	0.534
+T1970_longshu_getz.tsv	claude 3 pred	33.956	0.102	0.425	0.587
+T1970_longshu_getz.tsv	claude 3. 5 pred	33.072	0.089	0.432	0.589
+T1970_longshu_getz.tsv	chatgpt3. 5 pred	29.443	0.074	0.387	0.542
+T1970_longshu_getz.tsv	chatgpt4 pred	29.584	0.073	0.388	0.548
+T1970_longshu_getz.tsv	chatgpt4o pred	31.496	0.085	0.421	0.572
+T1970_longshu_getz.tsv	gtrans pred	26.21	0.056	0.346	0.503
+T1970_longshu_getz.tsv	mitra pred	33.186	0.093	0.431	0.581
+T1585_chengweishilun_cook_eval.tsv	claude 3 pred	37.223	0.109	0.395	0.544
+T1585_chengweishilun_cook_eval.tsv	claude 3. 5 pred	36.327	0.104	0.412	0.552
+T1585_chengweishilun_cook_eval.tsv	chatgpt3. 5 pred	29.684	0.066	0.312	0.489
+T1585_chengweishilun_cook_eval.tsv	chatgpt4 pred	31.17	0.076	0.333	0.504
+T1585_chengweishilun_cook_eval.tsv	chatgpt4o pred	34.567	0.095	0.39	0.54
+T1585_chengweishilun_cook_eval.tsv	gtrans pred	29.564	0.072	0.327	0.485
+T1585_chengweishilun_cook_eval.tsv	mitra pred	43.906	0.192	0.492	0.592

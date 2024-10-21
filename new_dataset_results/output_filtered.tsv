@@ -1,0 +1,145 @@
+Document	LLM	BLEURT Score
+T09n0273_merged.tsv	claude 3. 5 pred	0.598
+T09n0273_merged.tsv	chatgpt4o pred	0.578
+T09n0273_merged.tsv	gtrans pred	0.499
+T09n0273_merged.tsv	mitra pred	0.577
+T32n1660_merged.tsv	claude 3. 5 pred	0.59
+T32n1660_merged.tsv	chatgpt4o pred	0.605
+T32n1660_merged.tsv	gtrans pred	0.538
+T32n1660_merged.tsv	mitra pred	0.63
+T01n0001_merged.tsv	claude 3. 5 pred	0.61
+T01n0001_merged.tsv	chatgpt4o pred	0.64
+T01n0001_merged.tsv	gtrans pred	0.584
+T01n0001_merged.tsv	mitra pred	0.61
+T20n1136_merged.tsv	claude 3. 5 pred	0.626
+T20n1136_merged.tsv	chatgpt4o pred	0.619
+T20n1136_merged.tsv	gtrans pred	0.58
+T20n1136_merged.tsv	mitra pred	0.627
+T17n0749 Yinyuan seng hu jing 因緣僧護經_chn_merged.tsv	claude 3. 5 pred	0.561
+T17n0749 Yinyuan seng hu jing 因緣僧護經_chn_merged.tsv	chatgpt4o pred	0.554
+T17n0749 Yinyuan seng hu jing 因緣僧護經_chn_merged.tsv	gtrans pred	0.533
+T17n0749 Yinyuan seng hu jing 因緣僧護經_chn_merged.tsv	mitra pred	0.587
+T45n1857_merged.tsv	claude 3. 5 pred	0.544
+T45n1857_merged.tsv	chatgpt4o pred	0.54
+T45n1857_merged.tsv	gtrans pred	0.458
+T45n1857_merged.tsv	mitra pred	0.569
+T21n1305_merged.tsv	claude 3. 5 pred	0.601
+T21n1305_merged.tsv	chatgpt4o pred	0.608
+T21n1305_merged.tsv	gtrans pred	0.563
+T21n1305_merged.tsv	mitra pred	0.623
+T47n1961_merged.tsv	claude 3. 5 pred	0.512
+T47n1961_merged.tsv	chatgpt4o pred	0.523
+T47n1961_merged.tsv	gtrans pred	0.493
+T47n1961_merged.tsv	mitra pred	0.502
+T31n1614_merged.tsv	claude 3. 5 pred	0.446
+T31n1614_merged.tsv	chatgpt4o pred	0.461
+T31n1614_merged.tsv	gtrans pred	0.432
+T31n1614_merged.tsv	mitra pred	0.51
+T13n0417_merged.tsv	claude 3. 5 pred	0.619
+T13n0417_merged.tsv	chatgpt4o pred	0.614
+T13n0417_merged.tsv	gtrans pred	0.583
+T13n0417_merged.tsv	mitra pred	0.635
+T19n1022B_merged.tsv	claude 3. 5 pred	0.632
+T19n1022B_merged.tsv	chatgpt4o pred	0.622
+T19n1022B_merged.tsv	gtrans pred	0.584
+T19n1022B_merged.tsv	mitra pred	0.627
+T17n0842_merged.tsv	claude 3. 5 pred	0.641
+T17n0842_merged.tsv	chatgpt4o pred	0.618
+T17n0842_merged.tsv	gtrans pred	0.589
+T17n0842_merged.tsv	mitra pred	0.627
+T20n1060_merged.tsv	claude 3. 5 pred	0.59
+T20n1060_merged.tsv	chatgpt4o pred	0.54
+T20n1060_merged.tsv	gtrans pred	0.494
+T20n1060_merged.tsv	mitra pred	0.588
+T02n0142_merged.tsv	claude 3. 5 pred	0.509
+T02n0142_merged.tsv	chatgpt4o pred	0.507
+T02n0142_merged.tsv	gtrans pred	0.473
+T02n0142_merged.tsv	mitra pred	0.497
+T20n1077_merged.tsv	claude 3. 5 pred	0.614
+T20n1077_merged.tsv	chatgpt4o pred	0.602
+T20n1077_merged.tsv	gtrans pred	0.555
+T20n1077_merged.tsv	mitra pred	0.608
+T48n2004_merged.tsv	claude 3. 5 pred	0.332
+T48n2004_merged.tsv	chatgpt4o pred	0.312
+T48n2004_merged.tsv	gtrans pred	0.263
+T48n2004_merged.tsv	mitra pred	0.403
+T21n1261_merged.tsv	claude 3. 5 pred	0.621
+T21n1261_merged.tsv	chatgpt4o pred	0.596
+T21n1261_merged.tsv	gtrans pred	0.573
+T21n1261_merged.tsv	mitra pred	0.612
+T21n1277_merged.tsv	claude 3. 5 pred	0.638
+T21n1277_merged.tsv	chatgpt4o pred	0.616
+T21n1277_merged.tsv	gtrans pred	0.535
+T21n1277_merged.tsv	mitra pred	0.647
+T04n0198_merged.tsv	claude 3. 5 pred	0.538
+T04n0198_merged.tsv	chatgpt4o pred	0.522
+T04n0198_merged.tsv	gtrans pred	0.501
+T04n0198_merged.tsv	mitra pred	0.554
+T19n0959_merged.tsv	claude 3. 5 pred	0.54
+T19n0959_merged.tsv	chatgpt4o pred	0.521
+T19n0959_merged.tsv	gtrans pred	0.481
+T19n0959_merged.tsv	mitra pred	0.548
+T20n1166_merged.tsv	claude 3. 5 pred	0.566
+T20n1166_merged.tsv	chatgpt4o pred	0.549
+T20n1166_merged.tsv	gtrans pred	0.516
+T20n1166_merged.tsv	mitra pred	0.593
+T02n0099_merged.tsv	claude 3. 5 pred	0.66
+T02n0099_merged.tsv	chatgpt4o pred	0.665
+T02n0099_merged.tsv	gtrans pred	0.631
+T02n0099_merged.tsv	mitra pred	0.661
+T08n0246_merged.tsv	claude 3. 5 pred	0.586
+T08n0246_merged.tsv	chatgpt4o pred	0.569
+T08n0246_merged.tsv	gtrans pred	0.534
+T08n0246_merged.tsv	mitra pred	0.59
+T24n1492_merged.tsv	claude 3. 5 pred	0.606
+T24n1492_merged.tsv	chatgpt4o pred	0.602
+T24n1492_merged.tsv	gtrans pred	0.551
+T24n1492_merged.tsv	mitra pred	0.61
+T12n0374_merged.tsv	claude 3. 5 pred	0.593
+T12n0374_merged.tsv	chatgpt4o pred	0.597
+T12n0374_merged.tsv	gtrans pred	0.558
+T12n0374_merged.tsv	mitra pred	0.597
+T42n1826_merged.tsv	claude 3. 5 pred	0.51
+T42n1826_merged.tsv	chatgpt4o pred	0.491
+T42n1826_merged.tsv	gtrans pred	0.442
+T42n1826_merged.tsv	mitra pred	0.536
+T14n0450_merged.tsv	claude 3. 5 pred	0.592
+T14n0450_merged.tsv	chatgpt4o pred	0.592
+T14n0450_merged.tsv	gtrans pred	0.553
+T14n0450_merged.tsv	mitra pred	0.593
+T14n0515 Ru lai shi jiao sheng jun wang jing 如來示教勝軍王經_chn_merged.tsv	claude 3. 5 pred	0.388
+T14n0515 Ru lai shi jiao sheng jun wang jing 如來示教勝軍王經_chn_merged.tsv	chatgpt4o pred	0.383
+T14n0515 Ru lai shi jiao sheng jun wang jing 如來示教勝軍王經_chn_merged.tsv	gtrans pred	0.415
+T14n0515 Ru lai shi jiao sheng jun wang jing 如來示教勝軍王經_chn_merged.tsv	mitra pred	0.553
+T37n1762_merged.tsv	claude 3. 5 pred	0.564
+T37n1762_merged.tsv	chatgpt4o pred	0.549
+T37n1762_merged.tsv	gtrans pred	0.513
+T37n1762_merged.tsv	mitra pred	0.567
+T32n1666_merged.tsv	claude 3. 5 pred	0.584
+T32n1666_merged.tsv	chatgpt4o pred	0.582
+T32n1666_merged.tsv	gtrans pred	0.52
+T32n1666_merged.tsv	mitra pred	0.638
+T31n1610_merged.tsv	claude 3. 5 pred	0.552
+T31n1610_merged.tsv	chatgpt4o pred	0.591
+T31n1610_merged.tsv	gtrans pred	0.525
+T31n1610_merged.tsv	mitra pred	0.588
+T45n1909_merged.tsv	claude 3. 5 pred	0.541
+T45n1909_merged.tsv	chatgpt4o pred	0.528
+T45n1909_merged.tsv	gtrans pred	0.47
+T45n1909_merged.tsv	mitra pred	0.546
+T34n1725_merged.tsv	claude 3. 5 pred	0.558
+T34n1725_merged.tsv	chatgpt4o pred	0.548
+T34n1725_merged.tsv	gtrans pred	0.463
+T34n1725_merged.tsv	mitra pred	0.578
+T21n1394_merged.tsv	claude 3. 5 pred	0.577
+T21n1394_merged.tsv	chatgpt4o pred	0.566
+T21n1394_merged.tsv	gtrans pred	0.528
+T21n1394_merged.tsv	mitra pred	0.573
+T30n1568_merged.tsv	claude 3. 5 pred	0.638
+T30n1568_merged.tsv	chatgpt4o pred	0.63
+T30n1568_merged.tsv	gtrans pred	0.649
+T30n1568_merged.tsv	mitra pred	0.621
+T11n0316_merged.tsv	claude 3. 5 pred	0.619
+T11n0316_merged.tsv	chatgpt4o pred	0.615
+T11n0316_merged.tsv	gtrans pred	0.582
+T11n0316_merged.tsv	mitra pred	0.627
